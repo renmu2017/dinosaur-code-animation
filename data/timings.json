@@ -1,0 +1,53 @@
+{
+  "metric": "elapsed wall-clock time from model task dispatch to completed delivery, including thinking, code generation and self-checks; excluding video composition",
+  "records": [
+    {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "high",
+      "startedAt": "2026-09-30T02:25:45.983Z",
+      "completedAt": "2026-09-30T02:30:16.763Z",
+      "elapsedSeconds": 271,
+      "display": "4分31秒"
+    },
+    {
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high",
+      "startedAt": "2026-09-30T02:25:54.876Z",
+      "completedAt": "2026-09-30T02:32:05.417Z",
+      "elapsedSeconds": 371,
+      "display": "6分11秒"
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "startedAt": "2026-09-30T02:26:04.266Z",
+      "completedAt": "2026-09-30T02:31:18.824Z",
+      "elapsedSeconds": 315,
+      "display": "5分15秒"
+    },
+    {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "xhigh",
+      "startedAt": "2026-09-30T02:30:43.215Z",
+      "completedAt": "2026-09-30T02:36:17.669Z",
+      "elapsedSeconds": 334,
+      "display": "5分34秒"
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "startedAt": "2026-09-30T02:31:31.692Z",
+      "completedAt": "2026-09-30T02:44:43.102Z",
+      "elapsedSeconds": 791,
+      "display": "13分11秒"
+    },
+    {
+      "model": "gpt-6-astra",
+      "reasoning_effort": "xhigh",
+      "startedAt": "2026-09-30T02:32:14.291Z",
+      "completedAt": "2026-09-30T02:44:51.003Z",
+      "elapsedSeconds": 757,
+      "display": "12分37秒"
+    }
+  ]
+}

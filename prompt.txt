@@ -1,0 +1,18 @@
+Create a polished animated SVG illustration of a cute young triceratops dinosaur riding a bicycle through a spring countryside.
+
+Character and scene:
+- The animal must be unmistakably a young triceratops dinosaur: three clearly visible horns (two brow horns and one nose horn), a rounded bony neck frill, a beaked muzzle, a sturdy little body, a tapering tail and gentle friendly eyes. Use a warm sage-green body with subtle spots. Do not turn it into a bear, a generic lizard or a dragon.
+- The dinosaur wears a teal cycling helmet and a coral-red scarf, rides a mint-green bicycle, and carries a small basket of wildflowers at the front.
+- Side view, travelling to the right. Keep the whole animal, its tail, both wheels and basket inside the scene with comfortable margins. The animal and bicycle should be the main visual focus.
+- A beautiful, warm editorial storybook illustration: soft spring colours, clear silhouettes, confident vector shapes, considered details. Include a blue sky, a cheerful sun, clouds, layered hills, a winding rural path and a few flowers.
+
+Animation:
+- Make a seamless eight-second loop. Both wheels rotate, the feet follow the pedals continuously, and the legs bend naturally between the hips and pedal positions. The paws stay on the handlebar.
+- Add subtle body bobbing, a fluttering scarf, a gently moving tail, and background parallax to convey riding forward. Keep the bicycle coherent throughout the motion.
+- Animation must be deterministic from the supplied time. Use only pure JavaScript math and SVG markup; no external assets, libraries, random numbers, DOM, network, raster images, fonts from the internet, CSS animations, SMIL, timers or requestAnimationFrame.
+
+Technical delivery:
+- Return a CommonJS JavaScript module with this exact public interface: function renderScene(t) { ... return svgString; } module.exports = { renderScene };
+- t is time in seconds and may be any nonnegative real number; wrap t modulo 8 so renderScene(0) and renderScene(8) produce identical markup.
+- Return one complete valid SVG string with xmlns="http://www.w3.org/2000/svg" and viewBox="0 0 960 640". The SVG fills its whole artboard. Use local prefixed SVG ids where needed. No scene title, model name, captions or interface controls inside the artwork.
+- Produce your own best result independently in one attempt. Do not search for examples or inspect other model outputs. Do not ask questions. No explanation in the module.
